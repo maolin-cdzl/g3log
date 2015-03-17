@@ -121,7 +121,7 @@ endif()
 #         
 #   Check the output result and install accordingly.
 # ==========================================================================
-# INCLUDE (${g3log_SOURCE_DIR}/CPackLists.txt)
+  INCLUDE (${g3log_SOURCE_DIR}/CPackLists.txt)
 
 
 

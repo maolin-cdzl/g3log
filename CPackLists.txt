@@ -9,6 +9,10 @@
  #           COMPONENT headers)
 
 
+   INSTALL( TARGETS g3logger
+            ARCHIVE DESTINATION /usr/local/lib
+            LIBRARY DESTINATION /usr/local/lib
+            COMPONENT libraries)
 
    INSTALL( TARGETS g3logger_shared
             ARCHIVE
